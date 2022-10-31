@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpPhoneBalance.API", "UpPhoneBalance.API\UpPhoneBalance.API.csproj", "{7181374C-0227-4B44-B5C6-7DC69F51A67A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpPhoneBalance.Application", "UpPhoneBalance.Application\UpPhoneBalance.Application.csproj", "{3B05520B-9380-472E-A174-10E41C7C1981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpPhoneBalance.Domain", "UpPhoneBalance.Domain\UpPhoneBalance.Domain.csproj", "{9B2F29EB-EF71-48C9-8A9D-C29DEECA0DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpPhoneBalance.Infrastructure", "UpPhoneBalance.Infrastructure\UpPhoneBalance.Infrastructure.csproj", "{A62F146C-40E1-4D32-85F3-AC31B6B5A38A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{62E7A47A-D2A0-4E58-9D3C-86C294CE142D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpPhoneBalance.API.Tests", "UnitTests\UpPhoneBalance.API.Tests\UpPhoneBalance.API.Tests.csproj", "{FC96AF5E-9524-4065-888E-9057B9A7F6CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7181374C-0227-4B44-B5C6-7DC69F51A67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7181374C-0227-4B44-B5C6-7DC69F51A67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7181374C-0227-4B44-B5C6-7DC69F51A67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7181374C-0227-4B44-B5C6-7DC69F51A67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B05520B-9380-472E-A174-10E41C7C1981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B05520B-9380-472E-A174-10E41C7C1981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B05520B-9380-472E-A174-10E41C7C1981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B05520B-9380-472E-A174-10E41C7C1981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2F29EB-EF71-48C9-8A9D-C29DEECA0DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2F29EB-EF71-48C9-8A9D-C29DEECA0DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2F29EB-EF71-48C9-8A9D-C29DEECA0DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2F29EB-EF71-48C9-8A9D-C29DEECA0DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62F146C-40E1-4D32-85F3-AC31B6B5A38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62F146C-40E1-4D32-85F3-AC31B6B5A38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62F146C-40E1-4D32-85F3-AC31B6B5A38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62F146C-40E1-4D32-85F3-AC31B6B5A38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC96AF5E-9524-4065-888E-9057B9A7F6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC96AF5E-9524-4065-888E-9057B9A7F6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC96AF5E-9524-4065-888E-9057B9A7F6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC96AF5E-9524-4065-888E-9057B9A7F6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC96AF5E-9524-4065-888E-9057B9A7F6CB} = {62E7A47A-D2A0-4E58-9D3C-86C294CE142D}
+	EndGlobalSection
+EndGlobal
