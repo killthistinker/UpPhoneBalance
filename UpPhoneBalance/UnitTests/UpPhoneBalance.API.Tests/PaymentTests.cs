@@ -48,6 +48,7 @@ public class PaymentTests
     [Fact]
     public async Task AddPayment_WithPhoneMask()
     {
+        //Arrange
         var payment = Utilites.ReturnCorrectPaymentDtoWithPhoneMask();
         
         //Act
