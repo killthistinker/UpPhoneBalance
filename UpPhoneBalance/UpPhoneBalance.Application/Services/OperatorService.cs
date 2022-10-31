@@ -32,7 +32,7 @@ public class OperatorService : IOperatorService
         }
         catch (Exception ex)
         {
-            _logger.LogCritical(ex, "Сработал catch");
+            _logger.LogError(ex, "Сработал catch");
             return null;
         }
     }

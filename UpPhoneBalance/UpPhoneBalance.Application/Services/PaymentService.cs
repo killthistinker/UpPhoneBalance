@@ -47,7 +47,7 @@ public class PaymentService : IPaymentService
             var operatorName = await _operatorService.GetOperatorName(model)!;
             if (operatorName is null)
             {
-                _logger.LogInformation($"Оператор не найден. {model.PhoneNumber}");
+                _logger.LogInformation($"Оператор не найден. Номер телефона: {model.PhoneNumber}");
                 return new DefaultResponseObject<PaymentResponse>
                 {
                     ErrorModel = new ErrorModel{StatusCode = StatusCodes.OperatorNotFound, Message = _localizer["OperatorNotSupported"]}
@@ -69,7 +69,7 @@ public class PaymentService : IPaymentService
         }
         catch (Exception exception)
         {
-            _logger.LogCritical(exception, "Сработал cath");
+            _logger.LogError(exception, "Сработал cath");
             return new DefaultResponseObject<PaymentResponse>
             {
                 ErrorModel = new ErrorModel{StatusCode = StatusCodes.ServiceIsUnavailable, Message = _localizer["ServiceUnavailable"]}

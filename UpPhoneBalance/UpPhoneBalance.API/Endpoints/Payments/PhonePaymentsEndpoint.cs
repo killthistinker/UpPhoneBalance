@@ -42,7 +42,7 @@ public class PhonePaymentsEndpoint : EndpointBaseAsync.WithRequest<PaymentDto>.W
         }
         catch (Exception exception)
         {
-            _logger.LogCritical(exception,"Сработал cath");
+            _logger.LogError(exception,"Сработал cath");
             return Ok(StatusCodes.ServiceIsUnavailable);
         }
     }
